@@ -27,11 +27,11 @@ body{
    border-radius: 1rem;
    overflow: auto;
     margin: 0.5rem;
-    padding-bottom: 3.8rem;
+    /* padding-bottom: 3.8rem; */
 
 }
 
-.musicplayer{
+.music-player{
 
   background-color: #000000;
   position: fixed;
@@ -210,3 +210,34 @@ a{
   font-size: 0.85rem;
   opacity: 0.8;
 }
+.footer{
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.line{
+width: 90%;
+height: 40%;
+border-top: 1px solid white;
+opacity: 0.4;
+}
+
+.music-player{
+  display: flex;
+}
+
+.album{
+  width: 25%;
+}
+
+.player{
+  width: 50%;
+}
+
+.control{
+  width: 25%;
+}
+
