@@ -229,6 +229,7 @@ opacity: 0.4;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
 }
 
 .album{
@@ -270,7 +271,7 @@ opacity: 0.4;
 }
 
 .progress-bar{
-  width: 70%;
+  width: 23.5rem;
   appearance: none;
   background-color: transparent;
   cursor: pointer;
@@ -291,3 +292,87 @@ opacity: 0.4;
   border-radius: 50%;
   margin-top: -6px;
 }
+
+.album{
+  display: flex;
+   
+  align-items: center;
+   
+  /* flex-wrap: wrap; */
+}
+
+.album img{ 
+  height: 3.5rem;
+  width: 3.5rem;
+  border-radius: 5px;
+  padding: 0.5rem 0rem 0.5rem 1rem;
+ 
+ 
+}
+
+.h_album{
+  font-size: 1rem;
+  font-weight: 450;
+  margin: 0px;
+  
+  
+  
+}
+
+.p_album{
+  font-size: 0.8rem;
+  margin: 0px;
+  opacity: 0.9;
+}
+
+.album_info{
+  display: block;
+  flex-direction: column;
+  margin-left: 8px;
+  
+}
+
+.control{
+  display: flex;
+  justify-content: flex-end;
+  padding: right 0.5rem; ;
+}
+
+.control i{
+  color: #fff;
+  
+  /* padding:0rem 0.5rem 0rem 0rem ; */
+  display: flex;
+  opacity: 0.8;
+  padding: 0.2rem;
+  
+  
+  
+}
+
+.sound_range{
+  width:5rem ;
+  /* height:0.7rem ; */
+  appearance: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding-right :4px; 
+}
+
+.sound_range::-webkit-slider-runnable-track{
+  background-color: #ddd;
+  border-radius: 100px;
+  height: 0.15rem;
+
+}
+
+.sound_range::-webkit-slider-thumb{
+  appearance: none;
+  height: 0.6rem;
+  width: 0.6rem;
+  background-color: #1bd760;
+  border-radius: 50%;
+  margin-top: -3px;
+}
+  
+  
